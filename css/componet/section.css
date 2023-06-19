@@ -7,3 +7,9 @@
 section .main-titles{
     margin-bottom: 60px;
 }
+section.-bgBlack{
+    background-color: #000;
+}
+section.-bdFirst{
+    border-color: #E3C261;
+}
