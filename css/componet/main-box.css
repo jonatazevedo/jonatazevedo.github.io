@@ -1,10 +1,10 @@
-.box {
+.main-box {
     display: inline-block;
     text-align: center;
     background: #3A4042;
     box-shadow: 10px 10px 0 #000000;
     padding: 42px 45px;
 }
-.box .h1 {
+.main-box .main-titles{
     margin-bottom: 28px;
 }
