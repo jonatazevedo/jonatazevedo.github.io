@@ -1,5 +1,5 @@
 
-.button{
+.main-button{
     display: inline-block;
     background-color: #E3C261;
     
@@ -16,7 +16,7 @@
     font-weight: 500;
     text-decoration: none;
 }
-.button:hover{
+.main-button:hover{
     background-color: #E1DA65;
     transform: scale(1.08);
     opacity: 0.5;
