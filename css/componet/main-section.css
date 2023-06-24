@@ -1,15 +1,15 @@
-.section{
+.main-section{
     background: #053a88;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #000;
 }
-section .main-titles{
+.main-section .main-titles{
     margin-bottom: 60px;
 }
-section.-bgBlack{
+.main-section.-bgBlack{
     background-color: #000;
 }
-section.-bdFirst{
+.main-section.-bdFirst{
     border-color: #E3C261;
 }
