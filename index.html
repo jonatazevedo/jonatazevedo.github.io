@@ -5,11 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jonathas Azevedo</title>
-        <link rel="stylesheet" href="css/componet/reset.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href=<link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" href="css/componet/reset.css">
         <link rel="stylesheet" href="css/componet/main-titles.css">
         <link rel="stylesheet" href="css/componet/main-box.css">
         <link rel="stylesheet" href="css/componet/main-button.css">
@@ -23,35 +24,38 @@
         <link rel="stylesheet" href="css/componet/wrapper-skill.css">
         <link rel="stylesheet" href="css/componet/card-project.css">
         <link rel="stylesheet" href="css/componet/wrapper-card.css">
+        <link rel="stylesheet" href="css/componet/main-description.css">
+        <link rel="stylesheet" href="css/componet/button-arrow.css">
+        <link rel="stylesheet" href="css/componet/node-card.css">
+        <link rel="stylesheet" href="css/componet/main-carousel.css">
     </head>
 
     <body>
-        <header class="main-header">
-            <img class= "image" src="assets/logo.png" alt="logo">
-                <nav>
-                    <a class= "main-action" href="" lang="en">Skils</a>
-                    <a class= "main-action" href="">Projetos</a>
-                    <a class= "main-action" href="">Sobre</a> 
-                    <a class= "main-action" href="">Contatos</a>
-                    <a class= "main-button" href="" lang="en">Download CV</a>
-                </nav>
-        </header>
+            <header class="main-header">
+                <img class= "image" src="assets/logo.png" alt="logo">
+                    <nav>
+                        <a class= "main-action" href="" lang="en">Skils</a>
+                        <a class= "main-action" href="">Projetos</a>
+                        <a class= "main-action" href="">Sobre</a> 
+                        <a class= "main-action" href="">Contatos</a>
+                        <a class= "main-button" href="" lang="en">Download CV</a>
+                    </nav>
+            </header>
             <section class="main-banner">
                 <div class= "wrapper">  
                     <div class="main-box">
                         <h1 class="main-titles">Jonathas Azevedo</h1>
-                        <h2 class="main-subtitles"><em lang="en">FrontEnd Develope</em></h2>
+                            <h2 class="main-subtitles"><em lang="en">FrontEnd Develope</em></h2>
                     </div>
                     <div class="navegation"> 
                         <a class= "main-button" href="" lang="en">Download CV</a>
                         <a class= "main-button" href="">Contatos</a>
-                    </div>
-                </div>          
+                    </div>                </div>          
             </section>
             <section class="main-section -bdFirst">
                 <h1 class="main-titles -second">Skills</h1>
                 
-                <div class="wrapper-skill"> 
+                <div class="wrapper-skill">
                     <article class="skill-tec">
                         <img class= "icon" src="assets/ico_html5.png" alt="icone html"> 
                         <div class="rigth">
@@ -78,7 +82,7 @@
                         <div class="rigth">
                             <h3 class= "titles">TDD</h3>
                             <progress class="progress-bar" max="100" value="70">70%</progress>
-                        </div>
+                    </div>
                     </article>
                     <article class="skill-tec">
                         <img class= "icon" src="assets/ico_js.png" alt="icone javascript"> 
@@ -111,29 +115,74 @@
                 </div>
             </section>
             <section class="main-section -bgBlack -bdFirst">
-                <h2 class="main-titles -second">Projetos</h2>
-                    <div class="wrapper-card">
-                        <a href="https://www.firedlabs.com" target="_blank">
-                            <figure class="card-project">
-                                <img class="logo" src="assets/logo-firedlabs.png" alt="Logo FiredLabs">
-                            </figure>
-                        </a>
-                        <a href="https://medium.com/collabcode" target="_blank">
-                            <figure class="card-project -blue">
-                                <img class="logo" src="assets/logo-collabcode.png" alt="Logo Collabcode">
-                            </figure>
-                        </a>    
-                        <a href="https://jonatazevedo.github.io./">
-                            <figure class="card-project">
-                            <img class="logo" src="assets/Portfolio.png" alt="Logo Portifolio">
-                            </figure>
-                        </a>
-                    </div>
+            <h2 class="main-titles -second">Projetos</h2>
+            <div class="wrapper-card">
+                <a href="https://www.firedlabs.com" target="_blank">
+                    <figure class="card-project">
+                        <img class="logo" src="assets/logo-firedlabs.png" alt="Logo FiredLabs">
+                    </figure>
+                </a>
+                <a href="https://medium.com/collabcode" target="_blank">
+                    <figure class="card-project -blue">
+                        <img class="logo" src="assets/logo-collabcode.png" alt="Logo Collabcode">
+                    </figure>
+                </a>    
+                <a href="https://jonatazevedo.github.io./">
+                    <figure class="card-project">
+                        <img class="logo" src="assets/Portfolio.png" alt="Logo Portifolio">
+                    </figure>
+                </a>
+            </div>
             </section>
-        
-                    <p>Estou estudando <em lang="en">FrontEnd</em></p>
+            <section class="main-section -bdblack -bgsecond">
+                <h2 class="main-titles -second">Sobre</h2>
+                
+                <section class="main-carousel">
+                    <button class="button-arrow -left"><span class="content">Avançar</span></button>
+                    <div class="items">    
+                        <div class="elements">
+                            <figure class="node-card">
+                                <figcapion class="title">2012</figcapion>
+                                <div class="logo">
+                                    <img src="assets/logo-locaweb.png" alt="logo da local web">
+                                </div>
+                            </figure>
+                            <figure class="node-card -clean">
+                                <figcapion class="title">2014</figcapion>
+                                <div class="logo">
+                                    <img src="assets/logo-caelum.png" alt="logo da caelum">
+                                </div>
+                            </figure><figure class="node-card -first">
+                                <figcapion class="title">2016</figcapion>
+                                <div class="logo">
+                                    <img src="assets/logo-getninjas.png" alt="logo da get ninja">
+                                </div>
+                            </figure><figure class="node-card -clean">
+                                <figcapion class="title">2017</figcapion>
+                                <div class="logo">
+                                    <img src="assets/logo-caelum.png" alt="logo da caelum">
+                                </div>
+                            </figure>
+                            <figure class="node-card">
+                                <figcapion class="title">2018</figcapion>
+                                <div class="logo">
+                                    <img src="assets/logo-impulso.png" alt="logo da impulso">
+                                </div>
+                            </figure>
+                            <figure class="node-card -first">
+                                <figcapion class="title">2019</figcapion>
+                                <div class="logo">
+                                    <img src="assets/logo-collabcode-1.png" alt="logo da collabcode">
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="button-arrow -right"><span class="content">Voltar</span></button>
+                </section>
 
-    
-                    </dd>
+                <p class="main-description">Hoje, apenas um trabalhador que estar estudando para se tornar um desenvolvedor <em lang="en">FrontEnd Develope</em>, Jonathas Azevedo já trabalhou nas mais diversas áreas. Foi porteiro, motoboy, auxiliar administrativo, motorista de aplicativo e agora esta entrando na área de TI como auxiliar de TI, e estar a procura de novos desafios profissionais, descobriu a área de programação no seu curto período na faculdade de C&T, mas em sua bolha naquela época não existia muito direcionamento para essa área, por isso acabou tomando outros caminhos, agora um pouco mais velho e mais maduro decidiu correr atrás do seu sonho. Atualmente trabalha no Hospital Angio Vascular como auxiliar de TI, e dando seus primeiros passos para se tornar um programador estudando HTML3 e CSS5, quando não está jogando bola ou trocando ideias com amigos.</p>
+            </section>
+        <script src="js/componets/main-carousel.js"></script>
     </body>
+    
 </html>
