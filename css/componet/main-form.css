@@ -2,6 +2,9 @@
     background-color: #3a4042;
     padding: 50px 40px;
 }
+.main-form .main-titles {
+    margin-bottom: 50px;
+}
 
 .main-form .main-input {
     margin-bottom: 20px;
